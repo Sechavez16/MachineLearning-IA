@@ -1,135 +1,205 @@
 # Machine Learning & Artificial Intelligence
 
-Repositorio de proyectos académicos y prácticos desarrollados durante mi formación en **Inteligencia Artificial y Computación**, con énfasis en **Machine Learning, Inteligencia Artificial, algoritmos de búsqueda y técnicas de optimización**.
+Repositorio de proyectos académicos y prácticos desarrollados durante mi formación en **Inteligencia Artificial y Machine Learning**.
 
-Soy **Ingeniero de Sistemas y maestrante en Inteligencia Artificial y Computación**, actualmente orientando mi perfil profesional hacia el desarrollo de soluciones basadas en **Machine Learning e Inteligencia Artificial**.
+Los proyectos abarcan **Machine Learning, Deep Learning, clasificación, redes neuronales, algoritmos de búsqueda, algoritmos genéticos y optimización**, utilizando principalmente Python y herramientas del ecosistema de Inteligencia Artificial.
 
 ---
 
-## Contenido
+## Projects
 
-Este repositorio reúne diferentes proyectos y actividades prácticas desarrolladas durante mi formación en Inteligencia Artificial.
+### 1. MLP Classification — Wine Dataset
 
-### Machine Learning
+**Python · Scikit-learn · MLPClassifier**
 
-#### Predicción de deserción estudiantil
+Implementación de un modelo **Multilayer Perceptron (MLP)** para clasificación multiclase utilizando el dataset Wine.
 
-**Notebook:** `U4_Prediccion_Desercion_Estudiantil.ipynb`
+**Work performed:**
 
-Proyecto de Machine Learning orientado al análisis y predicción de la deserción estudiantil a partir de información de estudiantes.
+- Entrenamiento de un clasificador MLP.
+- Evaluación mediante accuracy.
+- Matriz de confusión y classification report.
+- Comparación de 7 algoritmos de clasificación.
+- Validación cruzada de 5 pliegues.
+- Análisis de media y desviación estándar del rendimiento.
+- Evaluación de diferentes arquitecturas de red.
+- Análisis de funciones de activación y capas ocultas.
 
-**Trabajo realizado:**
+**Skills demonstrated:** Supervised Machine Learning · Neural Networks · Model Evaluation · Cross-Validation
 
-- Exploración y análisis de los datos.
-- Preparación y transformación de la información.
+---
+
+### 2. Skin Cancer Classification — CNN
+
+**Python · TensorFlow · Keras · CNN**
+
+Desarrollo de un modelo de clasificación de imágenes mediante una **Convolutional Neural Network (CNN)**.
+
+**Architecture:**
+
+- Conv2D
+- MaxPooling2D
+- Flatten
+- Dense
+- Dropout
+
+**Work performed:**
+
+- Construcción de una arquitectura CNN.
+- Clasificación de imágenes.
+- Extracción de características mediante capas convolucionales.
+- Aplicación de pooling.
+- Regularización mediante Dropout.
+- Entrenamiento y evaluación del modelo.
+
+**Skills demonstrated:** Deep Learning · CNN · Image Classification · TensorFlow · Keras
+
+---
+
+### 3. Student Dropout Prediction
+
+**Python · Machine Learning · Pandas · NumPy · Jupyter Notebook**
+
+Proyecto orientado al **análisis y predicción de la deserción estudiantil** a partir de datos relacionados con estudiantes.
+
+**Work performed:**
+
+- Preparación de datos.
+- Exploración y análisis del dataset.
 - Construcción de modelos de Machine Learning.
-- Evaluación de los modelos.
-- Análisis de los resultados obtenidos.
+- Predicción de deserción estudiantil.
+- Evaluación de resultados.
 
-[Ver notebook](./U4_Prediccion_Desercion_Estudiantil.ipynb)
-
----
-
-## Inteligencia Artificial
-
-### Algoritmos de búsqueda
-
-**Notebook:** `Unidad3_EntregableFormativa_AlgoritmosDeBusqueda.ipynb`
-
-Implementación y análisis de algoritmos de búsqueda como parte del estudio de técnicas fundamentales de Inteligencia Artificial.
-
-El proyecto aborda la representación de problemas y la exploración de espacios de búsqueda para encontrar soluciones.
-
-[Ver notebook](./Unidad3_EntregableFormativa_AlgoritmosDeBusqueda.ipynb)
+**Skills demonstrated:** Data Preparation · Machine Learning · Predictive Modeling · Model Evaluation
 
 ---
 
-### Algoritmo genético — Travelling Salesman Problem
+### 4. Artificial Intelligence Search Algorithms
 
-**Notebook:** `Copia_de_Algoritmo_genético_completo_TSP.ipynb`
+**Python · Artificial Intelligence · Jupyter Notebook**
 
-Implementación de un algoritmo genético aplicado al **Travelling Salesman Problem (TSP)** como ejercicio de optimización mediante técnicas inspiradas en procesos evolutivos.
+Implementación y análisis de **algoritmos de búsqueda** para la exploración de espacios de soluciones.
 
-El proyecto permite trabajar conceptos relacionados con la representación de soluciones, evaluación de individuos y evolución de una población para aproximarse a una solución al problema.
+**Work performed:**
 
-[Ver notebook](./Copia_de_Algoritmo_genético_completo_TSP.ipynb)
+- Representación de problemas.
+- Representación de estados y soluciones.
+- Exploración de espacios de búsqueda.
+- Implementación de estrategias de búsqueda.
+- Obtención y análisis de soluciones.
 
----
-
-## Próximos proyectos
-
-Este repositorio se encuentra en evolución y será ampliado con nuevos proyectos desarrollados durante mi formación en Inteligencia Artificial y Computación.
-
-Entre ellos se incorporarán proyectos relacionados con:
-
-- Clasificación mediante Machine Learning.
-- Redes neuronales artificiales.
-- Redes neuronales convolucionales (CNN).
-- Evaluación y comparación de modelos.
-- Procesamiento y análisis de datos.
-- Aplicaciones prácticas de Inteligencia Artificial.
+**Skills demonstrated:** Artificial Intelligence · Search Algorithms · Problem Representation · Computational Problem Solving
 
 ---
 
-## Tecnologías
+### 5. Genetic Algorithm — Travelling Salesman Problem
 
-### Machine Learning e IA
+**Python · Genetic Algorithms · Optimization**
 
-- Python
-- Scikit-learn
-- TensorFlow / Keras
-- NumPy
-- Pandas
-- Jupyter Notebook
+Implementación de un **algoritmo genético** aplicado al problema del **Travelling Salesman Problem (TSP)**.
 
-### Desarrollo
+**Work performed:**
 
-- Java
-- Git
-- GitHub
-- Maven
+- Representación de individuos y soluciones.
+- Inicialización de población.
+- Evaluación mediante función de fitness.
+- Evolución de la población.
+- Evaluación de soluciones.
+- Aproximación a una solución mediante procesos evolutivos.
 
-### Cloud
-
-- Firebase
-- Cloud Firestore
+**Skills demonstrated:** Genetic Algorithms · Optimization · Evolutionary Computation · Problem Solving
 
 ---
 
-## Formación
+## Additional Academic Work
 
-**Maestría en Inteligencia Artificial y Computación**  
-Politécnico Grancolombiano — En curso
+El repositorio también contiene ejercicios, talleres y prácticas desarrollados durante mi proceso de formación en Inteligencia Artificial, Machine Learning y métodos computacionales.
 
-**Especialización en Pedagogía Universitaria**  
-Universidad de Pamplona
-
-**Ingeniería de Sistemas**  
-Universidad de Pamplona
+Estos trabajos complementan los proyectos principales y documentan la evolución de mis conocimientos en diferentes técnicas y algoritmos.
 
 ---
 
-## Enfoque profesional
+## Technologies
 
-Actualmente estoy orientando mi desarrollo profesional hacia posiciones **Junior en Machine Learning e Inteligencia Artificial**, fortaleciendo mis conocimientos en:
+**Programming**
 
-- Machine Learning.
-- Clasificación.
-- Redes neuronales.
-- Procesamiento y análisis de datos.
-- Evaluación de modelos.
-- Algoritmos de Inteligencia Artificial.
-- Optimización.
-- Python para Inteligencia Artificial.
+Python · Java · JavaScript · PHP
 
-Mi formación como Ingeniero de Sistemas me permite complementar estos conocimientos con fundamentos de programación, desarrollo de software, bases de datos y arquitectura de aplicaciones.
+**Machine Learning & AI**
+
+Scikit-learn · TensorFlow · Keras · Machine Learning · Deep Learning · Neural Networks · MLP · CNN · Search Algorithms · Genetic Algorithms
+
+**Data Processing**
+
+Pandas · NumPy · Jupyter Notebook
+
+**Development**
+
+Git · GitHub · Object-Oriented Programming · REST APIs · Spring Boot · Maven
+
+**Databases**
+
+PostgreSQL · MySQL · Firebase Firestore
 
 ---
 
-## Contacto
+## Machine Learning & AI Skills
 
-**GitHub:** [Sechavez16](https://github.com/Sechavez16)
+- Classification
+- Supervised Machine Learning
+- Neural Networks
+- Multilayer Perceptrons
+- Convolutional Neural Networks
+- Cross-Validation
+- Model Evaluation
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Data Preparation
+- Data Analysis
+- Search Algorithms
+- Genetic Algorithms
+- Optimization
 
-**LinkedIn:** [Sebastián Echávez](https://www.linkedin.com/)
+---
+
+## Professional Background
+
+I am a **Systems Engineer** currently pursuing a **Master's Degree in Artificial Intelligence and Computing** at Politécnico Grancolombiano.
+
+I also hold a **Specialization in University Pedagogy** from Universidad de Pamplona and have experience as a university lecturer in programming and engineering.
+
+My teaching experience includes **Object-Oriented Programming with Java, numerical algorithms, computational logic, code review, software project mentoring and technical communication**.
+
+My professional goal is to continue developing in **Artificial Intelligence and Machine Learning**, combining my software engineering background with practical experience in AI.
+
+---
+
+## Education
+
+**Master's Degree in Artificial Intelligence and Computing**  
+Politécnico Grancolombiano — *In progress*
+
+**Specialization in University Pedagogy**  
+Universidad de Pamplona — *Completed*
+
+**Systems Engineering**  
+Universidad de Pamplona — *Completed*
+
+---
+
+## Contact
+
+**Sebastián Echávez Cadena**
+
+AI & Machine Learning Junior | Systems Engineer
+
+Colombia
 
 **Email:** sebastianechavez5@gmail.com
+
+**GitHub:** https://github.com/Sechavez16
+
+**LinkedIn:** Add your LinkedIn profile here
