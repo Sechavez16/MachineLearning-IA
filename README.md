@@ -1,112 +1,100 @@
-# Machine Learning e Inteligencia Artificial
+# Machine Learning & Artificial Intelligence
 
-Repositorio de proyectos académicos y prácticos desarrollados durante mi formación en **Inteligencia Artificial y Computación**, con énfasis en **Machine Learning, redes neuronales, algoritmos de búsqueda y optimización**.
+Repositorio de proyectos académicos y prácticos desarrollados durante mi formación en **Inteligencia Artificial y Computación**, con énfasis en **Machine Learning, Inteligencia Artificial, algoritmos de búsqueda y técnicas de optimización**.
 
-Soy **Ingeniero de Sistemas y maestrante en Inteligencia Artificial y Computación**, actualmente orientado al desarrollo de soluciones de Machine Learning y al fortalecimiento de mis habilidades en Python, análisis de datos y evaluación de modelos.
+Soy **Ingeniero de Sistemas y maestrante en Inteligencia Artificial y Computación**, actualmente orientando mi perfil profesional hacia el desarrollo de soluciones basadas en **Machine Learning e Inteligencia Artificial**.
 
-## Tecnologías
+---
 
-- Python
-- NumPy
-- Pandas
-- Scikit-learn
-- TensorFlow / Keras
-- Jupyter Notebook
-- Matplotlib
-- Git / GitHub
+## Contenido
 
-## Machine Learning e Inteligencia Artificial
+Este repositorio reúne diferentes proyectos y actividades prácticas desarrolladas durante mi formación en Inteligencia Artificial.
 
-### Predicción de deserción estudiantil
+### Machine Learning
 
-**Archivo:** `U4_Prediccion_Desercion_Estudiantil.ipynb`
+#### Predicción de deserción estudiantil
 
-Proyecto orientado a la construcción de un modelo de Machine Learning para analizar y predecir la posible deserción estudiantil a partir de características de los estudiantes.
+**Notebook:** `U4_Prediccion_Desercion_Estudiantil.ipynb`
 
-**Incluye:**
+Proyecto de Machine Learning orientado al análisis y predicción de la deserción estudiantil a partir de información de estudiantes.
 
-- Exploración y preparación de datos.
-- Análisis de variables.
-- Preprocesamiento de información.
-- Entrenamiento de modelos de Machine Learning.
-- Evaluación del desempeño.
-- Análisis de resultados.
+**Trabajo realizado:**
+
+- Exploración y análisis de los datos.
+- Preparación y transformación de la información.
+- Construcción de modelos de Machine Learning.
+- Evaluación de los modelos.
+- Análisis de los resultados obtenidos.
 
 [Ver notebook](./U4_Prediccion_Desercion_Estudiantil.ipynb)
 
 ---
 
-### Algoritmo genético — Problema del viajante (TSP)
-
-**Archivo:** `Copia_de_Algoritmo_genético_completo_TSP.ipynb`
-
-Implementación de un algoritmo genético aplicado al **Travelling Salesman Problem (TSP)**, explorando técnicas de optimización inspiradas en procesos evolutivos.
-
-**Incluye:**
-
-- Representación de soluciones.
-- Inicialización de población.
-- Evaluación mediante función de aptitud.
-- Selección.
-- Cruce.
-- Mutación.
-- Evolución de generaciones.
-- Análisis de la solución obtenida.
-
-[Ver notebook](./Copia_de_Algoritmo_genético_completo_TSP.ipynb)
-
----
+## Inteligencia Artificial
 
 ### Algoritmos de búsqueda
 
-**Archivo:** `Unidad3_EntregableFormativa_AlgoritmosDeBusqueda.ipynb`
+**Notebook:** `Unidad3_EntregableFormativa_AlgoritmosDeBusqueda.ipynb`
 
-Implementación y análisis de algoritmos de búsqueda como parte de la formación en Inteligencia Artificial.
+Implementación y análisis de algoritmos de búsqueda como parte del estudio de técnicas fundamentales de Inteligencia Artificial.
 
-**Temas trabajados:**
-
-- Representación del problema.
-- Estrategias de búsqueda.
-- Exploración del espacio de soluciones.
-- Comparación del comportamiento de los algoritmos.
+El proyecto aborda la representación de problemas y la exploración de espacios de búsqueda para encontrar soluciones.
 
 [Ver notebook](./Unidad3_EntregableFormativa_AlgoritmosDeBusqueda.ipynb)
 
 ---
 
-## Otros proyectos
+### Algoritmo genético — Travelling Salesman Problem
 
-### Aplicación Java + Firebase Firestore
+**Notebook:** `Copia_de_Algoritmo_genético_completo_TSP.ipynb`
 
-Proyecto académico desarrollado durante el módulo de **Fundamentos de la Tecnología Cloud** de la Maestría en Inteligencia Artificial y Computación.
+Implementación de un algoritmo genético aplicado al **Travelling Salesman Problem (TSP)** como ejercicio de optimización mediante técnicas inspiradas en procesos evolutivos.
 
-Aplicación de escritorio desarrollada en Java que permite gestionar información de estudiantes mediante operaciones CRUD y realizar carga masiva desde archivos CSV hacia **Firebase Firestore**.
+El proyecto permite trabajar conceptos relacionados con la representación de soluciones, evaluación de individuos y evolución de una población para aproximarse a una solución al problema.
 
-**Tecnologías:**
+[Ver notebook](./Copia_de_Algoritmo_genético_completo_TSP.ipynb)
 
-- Java 21
-- Maven
-- Firebase Firestore
-- Firebase Admin SDK
-- Swing
-- Git
+---
 
-[Ver proyecto](.)
+## Próximos proyectos
 
-> Las credenciales de Firebase no se incluyen en el repositorio por razones de seguridad.
+Este repositorio se encuentra en evolución y será ampliado con nuevos proyectos desarrollados durante mi formación en Inteligencia Artificial y Computación.
 
-## Enfoque profesional
+Entre ellos se incorporarán proyectos relacionados con:
 
-Actualmente estoy orientando mi perfil hacia posiciones **Junior de Machine Learning e Inteligencia Artificial**, fortaleciendo especialmente:
-
-- Machine Learning supervisado.
-- Clasificación.
-- Redes neuronales.
-- Procesamiento y análisis de datos.
+- Clasificación mediante Machine Learning.
+- Redes neuronales artificiales.
+- Redes neuronales convolucionales (CNN).
 - Evaluación y comparación de modelos.
-- Python para Machine Learning.
-- Fundamentos de optimización.
-- Integración de soluciones de IA con aplicaciones de software.
+- Procesamiento y análisis de datos.
+- Aplicaciones prácticas de Inteligencia Artificial.
+
+---
+
+## Tecnologías
+
+### Machine Learning e IA
+
+- Python
+- Scikit-learn
+- TensorFlow / Keras
+- NumPy
+- Pandas
+- Jupyter Notebook
+
+### Desarrollo
+
+- Java
+- Git
+- GitHub
+- Maven
+
+### Cloud
+
+- Firebase
+- Cloud Firestore
+
+---
 
 ## Formación
 
@@ -119,11 +107,24 @@ Universidad de Pamplona
 **Ingeniería de Sistemas**  
 Universidad de Pamplona
 
-## Sobre mí
+---
 
-Soy Ingeniero de Sistemas con experiencia en desarrollo de software y docencia universitaria. Actualmente estoy enfocando mi crecimiento profesional hacia **Machine Learning e Inteligencia Artificial**, combinando fundamentos de programación, análisis de datos y formación especializada en IA.
+## Enfoque profesional
 
-Mi objetivo es incorporarme a un equipo como **Machine Learning Engineer / Machine Learning Junior / AI Junior**, donde pueda continuar desarrollando experiencia práctica y aportar desde mis conocimientos en software, programación y aprendizaje automático.
+Actualmente estoy orientando mi desarrollo profesional hacia posiciones **Junior en Machine Learning e Inteligencia Artificial**, fortaleciendo mis conocimientos en:
+
+- Machine Learning.
+- Clasificación.
+- Redes neuronales.
+- Procesamiento y análisis de datos.
+- Evaluación de modelos.
+- Algoritmos de Inteligencia Artificial.
+- Optimización.
+- Python para Inteligencia Artificial.
+
+Mi formación como Ingeniero de Sistemas me permite complementar estos conocimientos con fundamentos de programación, desarrollo de software, bases de datos y arquitectura de aplicaciones.
+
+---
 
 ## Contacto
 
