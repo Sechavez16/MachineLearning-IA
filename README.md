@@ -1,205 +1,309 @@
-# Machine Learning & Artificial Intelligence
 
-Repositorio de proyectos académicos y prácticos desarrollados durante mi formación en **Inteligencia Artificial y Machine Learning**.
+# Machine Learning e Inteligencia Artificial
 
-Los proyectos abarcan **Machine Learning, Deep Learning, clasificación, redes neuronales, algoritmos de búsqueda, algoritmos genéticos y optimización**, utilizando principalmente Python y herramientas del ecosistema de Inteligencia Artificial.
+Portafolio de proyectos prácticos y académicos enfocados en **Machine Learning, Deep Learning, análisis de datos, redes neuronales, algoritmos de búsqueda y optimización computacional**.
 
----
+Este repositorio reúne notebooks y experimentos desarrollados durante mi formación en Inteligencia Artificial. Los proyectos exploran diferentes técnicas de aprendizaje automático y métodos computacionales para abordar problemas de clasificación, predicción, análisis de información y optimización.
 
-## Projects
+Mi objetivo es continuar fortaleciendo mis competencias en **Machine Learning e Inteligencia Artificial**, integrando mis conocimientos de programación, algoritmos e ingeniería de software con el desarrollo de soluciones basadas en datos.
 
-### 1. MLP Classification — Wine Dataset
+## Tabla de contenidos
 
-**Python · Scikit-learn · MLPClassifier**
-
-Implementación de un modelo **Multilayer Perceptron (MLP)** para clasificación multiclase utilizando el dataset Wine.
-
-**Work performed:**
-
-- Entrenamiento de un clasificador MLP.
-- Evaluación mediante accuracy.
-- Matriz de confusión y classification report.
-- Comparación de 7 algoritmos de clasificación.
-- Validación cruzada de 5 pliegues.
-- Análisis de media y desviación estándar del rendimiento.
-- Evaluación de diferentes arquitecturas de red.
-- Análisis de funciones de activación y capas ocultas.
-
-**Skills demonstrated:** Supervised Machine Learning · Neural Networks · Model Evaluation · Cross-Validation
+- [Proyectos destacados](#proyectos-destacados)
+- [Proyectos complementarios](#proyectos-complementarios)
+- [Tecnologías y herramientas](#tecnologías-y-herramientas)
+- [Competencias técnicas](#competencias-técnicas)
+- [Instalación y ejecución](#instalación-y-ejecución)
+- [Perfil profesional](#perfil-profesional)
+- [Formación académica](#formación-académica)
+- [Contacto](#contacto)
 
 ---
 
-### 2. Skin Cancer Classification — CNN
+## Proyectos destacados
 
-**Python · TensorFlow · Keras · CNN**
+Los proyectos se presentan priorizando las áreas más relevantes para oportunidades de **Machine Learning Engineer Junior**: clasificación, redes neuronales, modelado predictivo y análisis de datos.
 
-Desarrollo de un modelo de clasificación de imágenes mediante una **Convolutional Neural Network (CNN)**.
+### 1. Clasificación con redes neuronales MLP
 
-**Architecture:**
+**Área:** Machine Learning y aprendizaje supervisado.
 
-- Conv2D
-- MaxPooling2D
-- Flatten
-- Dense
-- Dropout
+**Tecnologías:** Python, Scikit-learn, MLPClassifier.
 
-**Work performed:**
+Implementación de un modelo de perceptrón multicapa (*Multilayer Perceptron*, MLP) para abordar un problema de clasificación utilizando el conjunto de datos Wine.
 
-- Construcción de una arquitectura CNN.
-- Clasificación de imágenes.
+**Aspectos trabajados:**
+- Entrenamiento de modelos de clasificación.
+- Experimentación con arquitecturas de redes neuronales.
+- Comparación de diferentes algoritmos de clasificación.
+- Evaluación mediante métricas de rendimiento.
+- Análisis de matrices de confusión e informes de clasificación.
+- Validación cruzada para estudiar el comportamiento de los modelos.
+
+**Competencias:** clasificación supervisada, redes neuronales, evaluación de modelos y validación cruzada.
+
+[Explorar el proyecto en GitHub](https://github.com/Sechavez16/MachineLearning-IA)
+
+### 2. Clasificación de imágenes mediante redes neuronales convolucionales (CNN)
+
+**Área:** Deep Learning y visión por computador.
+
+**Tecnologías:** Python, TensorFlow, Keras.
+
+Proyecto académico orientado a explorar la clasificación de imágenes mediante redes neuronales convolucionales (*Convolutional Neural Networks*, CNN).
+
+**Aspectos trabajados:**
+- Construcción de arquitecturas de redes neuronales.
 - Extracción de características mediante capas convolucionales.
-- Aplicación de pooling.
-- Regularización mediante Dropout.
-- Entrenamiento y evaluación del modelo.
+- Reducción de dimensiones mediante capas de agrupamiento.
+- Clasificación mediante capas densas.
+- Exploración de técnicas de regularización.
 
-**Skills demonstrated:** Deep Learning · CNN · Image Classification · TensorFlow · Keras
+**Competencias:** Deep Learning, procesamiento de imágenes, redes neuronales convolucionales y clasificación.
 
----
+Este proyecto tiene fines académicos y no constituye una herramienta de diagnóstico médico validada.
 
-### 3. Student Dropout Prediction
+[Explorar el proyecto en GitHub](https://github.com/Sechavez16/MachineLearning-IA)
 
-**Python · Machine Learning · Pandas · NumPy · Jupyter Notebook**
+### 3. Predicción de la deserción estudiantil
 
-Proyecto orientado al **análisis y predicción de la deserción estudiantil** a partir de datos relacionados con estudiantes.
+**Área:** Machine Learning aplicado a la educación.
 
-**Work performed:**
+**Tecnologías:** Python, Pandas, NumPy, Jupyter Notebook.
 
-- Preparación de datos.
-- Exploración y análisis del dataset.
-- Construcción de modelos de Machine Learning.
-- Predicción de deserción estudiantil.
-- Evaluación de resultados.
+Proyecto enfocado en explorar el uso de técnicas de aprendizaje automático para analizar información estudiantil y abordar el problema de la deserción académica.
 
-**Skills demonstrated:** Data Preparation · Machine Learning · Predictive Modeling · Model Evaluation
+**Aspectos trabajados:**
+- Exploración de datos.
+- Preparación y procesamiento de información.
+- Construcción de modelos predictivos.
+- Aplicación de técnicas de clasificación.
+- Evaluación de los resultados obtenidos.
 
----
+**Competencias:** preparación de datos, modelado predictivo, aprendizaje supervisado y evaluación de modelos.
 
-### 4. Artificial Intelligence Search Algorithms
+[Consultar notebook de predicción de deserción estudiantil](https://github.com/Sechavez16/MachineLearning-IA/blob/main/U4_Prediccion_Desercion_Estudiantil.ipynb)
 
-**Python · Artificial Intelligence · Jupyter Notebook**
+### 4. Análisis exploratorio de datos: centros de datos globales
 
-Implementación y análisis de **algoritmos de búsqueda** para la exploración de espacios de soluciones.
+**Área:** Análisis de datos y preparación de información.
 
-**Work performed:**
+**Tecnologías:** Python, Pandas, NumPy, Jupyter Notebook, Kaggle.
 
-- Representación de problemas.
-- Representación de estados y soluciones.
+Análisis exploratorio de un conjunto de datos relacionado con centros de datos a nivel global. El proyecto busca comprender la estructura de la información, examinar sus características e identificar posibles problemas de calidad.
+
+**Aspectos trabajados:**
+- Obtención y carga del conjunto de datos.
+- Inspección de dimensiones, columnas y estructura.
+- Identificación de valores faltantes.
+- Consulta y filtrado de registros mediante Pandas.
+- Exploración inicial de la información disponible.
+
+**Competencias:** análisis exploratorio de datos (EDA), manipulación de datos, inspección de calidad y programación con Python.
+
+[Consultar notebook de análisis de datos](https://github.com/Sechavez16/MachineLearning-IA/blob/main/An%C3%A1lisis_datos.ipynb)
+
+[Ejecutar en Google Colab](https://colab.research.google.com/github/Sechavez16/MachineLearning-IA/blob/main/An%C3%A1lisis_datos.ipynb)
+
+### 5. Algoritmos genéticos aplicados al problema del viajante (TSP)
+
+**Área:** Inteligencia Artificial y optimización.
+
+**Tecnologías:** Python, algoritmos genéticos.
+
+Implementación de un algoritmo genético para abordar el *Travelling Salesman Problem* (TSP), un problema de optimización combinatoria que busca determinar una ruta de distancia reducida para visitar un conjunto de ciudades y regresar al punto de partida.
+
+**Aspectos trabajados:**
+- Representación de posibles soluciones.
+- Inicialización de poblaciones.
+- Evaluación mediante funciones de aptitud (*fitness*).
+- Aplicación de operadores genéticos.
+- Evolución de soluciones mediante procesos iterativos.
+
+**Competencias:** algoritmos genéticos, optimización combinatoria y resolución computacional de problemas.
+
+[Consultar notebook del algoritmo genético](https://github.com/Sechavez16/MachineLearning-IA/blob/main/Copia_de_Algoritmo_gen%C3%A9tico_completo_TSP.ipynb)
+
+### 6. Algoritmos de búsqueda en Inteligencia Artificial
+
+**Área:** Inteligencia Artificial y resolución de problemas.
+
+**Tecnologías:** Python, algoritmos, Jupyter Notebook.
+
+Exploración de estrategias de búsqueda utilizadas para recorrer espacios de estados, encontrar soluciones y resolver problemas computacionales.
+
+**Aspectos trabajados:**
+- Representación de problemas y estados.
 - Exploración de espacios de búsqueda.
-- Implementación de estrategias de búsqueda.
-- Obtención y análisis de soluciones.
+- Implementación de estrategias algorítmicas.
+- Análisis de las soluciones obtenidas.
+- Aplicación del razonamiento computacional.
 
-**Skills demonstrated:** Artificial Intelligence · Search Algorithms · Problem Representation · Computational Problem Solving
+**Competencias:** algoritmos de búsqueda, pensamiento algorítmico y fundamentos de Inteligencia Artificial.
 
----
-
-### 5. Genetic Algorithm — Travelling Salesman Problem
-
-**Python · Genetic Algorithms · Optimization**
-
-Implementación de un **algoritmo genético** aplicado al problema del **Travelling Salesman Problem (TSP)**.
-
-**Work performed:**
-
-- Representación de individuos y soluciones.
-- Inicialización de población.
-- Evaluación mediante función de fitness.
-- Evolución de la población.
-- Evaluación de soluciones.
-- Aproximación a una solución mediante procesos evolutivos.
-
-**Skills demonstrated:** Genetic Algorithms · Optimization · Evolutionary Computation · Problem Solving
+[Consultar notebook de algoritmos de búsqueda](https://github.com/Sechavez16/MachineLearning-IA/blob/main/Unidad3_EntregableFormativa_AlgoritmosDeBusqueda.ipynb)
 
 ---
 
-## Additional Academic Work
+## Proyectos complementarios
 
-El repositorio también contiene ejercicios, talleres y prácticas desarrollados durante mi proceso de formación en Inteligencia Artificial, Machine Learning y métodos computacionales.
+El repositorio también contiene ejercicios y talleres académicos que complementan los proyectos principales.
 
-Estos trabajos complementan los proyectos principales y documentan la evolución de mis conocimientos en diferentes técnicas y algoritmos.
+| Archivo | Descripción |
+|---|---|
+| `Caras.ipynb` | Notebook relacionado con el trabajo sobre caras e imágenes. |
+| `Taller10Monedas.ipynb` | Taller académico de resolución de problemas. |
+| `Taller4_PrimerosPasos.ipynb` | Ejercicios introductorios de programación y fundamentos. |
 
----
-
-## Technologies
-
-**Programming**
-
-Python · Java · JavaScript · PHP
-
-**Machine Learning & AI**
-
-Scikit-learn · TensorFlow · Keras · Machine Learning · Deep Learning · Neural Networks · MLP · CNN · Search Algorithms · Genetic Algorithms
-
-**Data Processing**
-
-Pandas · NumPy · Jupyter Notebook
-
-**Development**
-
-Git · GitHub · Object-Oriented Programming · REST APIs · Spring Boot · Maven
-
-**Databases**
-
-PostgreSQL · MySQL · Firebase Firestore
+Estos materiales documentan ejercicios complementarios de aprendizaje y pueden ampliarse con explicaciones, resultados y pruebas de ejecución.
 
 ---
 
-## Machine Learning & AI Skills
+## Tecnologías y herramientas
 
-- Classification
-- Supervised Machine Learning
-- Neural Networks
-- Multilayer Perceptrons
-- Convolutional Neural Networks
-- Cross-Validation
-- Model Evaluation
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
-- Data Preparation
-- Data Analysis
-- Search Algorithms
-- Genetic Algorithms
-- Optimization
+### Lenguaje de programación
+- Python
 
----
+### Análisis y procesamiento de datos
+- Pandas
+- NumPy
 
-## Professional Background
+### Machine Learning
+- Scikit-learn
+- Clasificación supervisada
+- Redes neuronales MLP
+- Validación cruzada
+- Evaluación de modelos
 
-I am a **Systems Engineer** currently pursuing a **Master's Degree in Artificial Intelligence and Computing** at Politécnico Grancolombiano.
+### Deep Learning
+- TensorFlow
+- Keras
+- Redes neuronales convolucionales (CNN)
 
-I also hold a **Specialization in University Pedagogy** from Universidad de Pamplona and have experience as a university lecturer in programming and engineering.
+### Algoritmos e Inteligencia Artificial
+- Algoritmos de búsqueda
+- Algoritmos genéticos
+- Optimización computacional
 
-My teaching experience includes **Object-Oriented Programming with Java, numerical algorithms, computational logic, code review, software project mentoring and technical communication**.
+### Entornos y herramientas
+- Jupyter Notebook
+- Google Colab
+- Git
+- GitHub
+- Kaggle
 
-My professional goal is to continue developing in **Artificial Intelligence and Machine Learning**, combining my software engineering background with practical experience in AI.
-
----
-
-## Education
-
-**Master's Degree in Artificial Intelligence and Computing**  
-Politécnico Grancolombiano — *In progress*
-
-**Specialization in University Pedagogy**  
-Universidad de Pamplona — *Completed*
-
-**Systems Engineering**  
-Universidad de Pamplona — *Completed*
+Las herramientas indicadas corresponden a las tecnologías relacionadas con los proyectos del repositorio. Las dependencias pueden variar entre notebooks.
 
 ---
 
-## Contact
+## Competencias técnicas
 
-**Sebastián Echávez Cadena**
+### Análisis y preparación de datos
+- Inspección y exploración de conjuntos de datos.
+- Identificación de valores faltantes.
+- Filtrado y manipulación de información.
+- Preparación de datos para análisis y modelado.
 
-AI & Machine Learning Junior | Systems Engineer
+### Aprendizaje automático
+- Clasificación supervisada.
+- Entrenamiento y comparación de modelos.
+- Validación cruzada.
+- Evaluación mediante métricas de clasificación.
+- Interpretación de matrices de confusión.
 
-Colombia
+### Aprendizaje profundo
+- Fundamentos de redes neuronales.
+- Perceptrones multicapa.
+- Redes neuronales convolucionales.
+- Clasificación de imágenes.
+- Técnicas básicas de regularización.
 
-**Email:** sebastianechavez5@gmail.com
+### Algoritmos y optimización
+- Diseño e implementación de algoritmos.
+- Exploración de espacios de búsqueda.
+- Algoritmos genéticos.
+- Optimización de soluciones computacionales.
 
-**GitHub:** https://github.com/Sechavez16
+---
 
-**LinkedIn:** Add your LinkedIn profile here
+## Instalación y ejecución
+
+### Requisitos
+
+- Python 3.x compatible con las dependencias de cada notebook.
+- Jupyter Notebook, JupyterLab o Google Colab.
+- Git para clonar el repositorio.
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/Sechavez16/MachineLearning-IA.git
+cd MachineLearning-IA
+```
+
+### 2. Crear un entorno virtual
+
+**Windows:**
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**Linux o macOS:**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Instalar las dependencias básicas
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter
+```
+
+Algunos notebooks pueden necesitar bibliotecas adicionales, como TensorFlow o Keras. Instala las dependencias específicas de cada proyecto y verifica su compatibilidad.
+
+### 4. Ejecutar los notebooks
+
+```bash
+jupyter notebook
+```
+
+Selecciona el notebook que deseas ejecutar y sigue las celdas en orden.
+
+También puedes utilizar Google Colab para ejecutar notebooks compatibles sin configurar un entorno local.
+
+**Nota:** algunos proyectos pueden depender de conjuntos de datos externos, rutas específicas o credenciales de Kaggle. Configura estos recursos de forma segura y nunca publiques tokens ni credenciales privadas.
+
+---
+
+## Perfil profesional
+
+Soy Ingeniero de Sistemas y docente universitario, con experiencia en programación, fundamentos de ingeniería de software y acompañamiento de procesos formativos.
+
+Actualmente curso la **Maestría en Inteligencia Artificial y Computación** en el Politécnico Grancolombiano y cuento con una **Especialización en Pedagogía Universitaria**.
+
+Mi interés profesional está orientado al desarrollo de competencias en Machine Learning e Inteligencia Artificial, con énfasis en programación, algoritmos, preparación de datos, clasificación y evaluación de modelos.
+
+Busco aplicar mis fundamentos de ingeniería de software y pensamiento computacional al desarrollo de soluciones basadas en datos y aprendizaje automático.
+
+## Formación académica
+
+- **Maestría en Inteligencia Artificial y Computación** — Politécnico Grancolombiano, en curso.
+- **Especialización en Pedagogía Universitaria** — Universidad de Pamplona.
+- **Ingeniería de Sistemas** — Universidad de Pamplona.
+
+---
+
+## Contacto
+
+**Sebastián Echavez Cadena**
+
+- **GitHub:** [@Sechavez16](https://github.com/Sechavez16)
+- **LinkedIn:** [Perfil profesional](https://www.linkedin.com/)
+
+---
+
+*Este repositorio reúne proyectos y ejercicios académicos de Inteligencia Artificial y Machine Learning. Los notebooks pueden requerir actualizaciones, configuración de dependencias o validación adicional para garantizar su ejecución reproducible.*
